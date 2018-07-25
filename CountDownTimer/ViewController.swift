@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        LocalNotification.registerForLocalNotification(on: UIApplication.shared)
     }
 
     override func didReceiveMemoryWarning() {
