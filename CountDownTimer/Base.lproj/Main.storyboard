@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VCb-GG-d0u">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VCb-GG-d0u">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,16 +19,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbR-hZ-xm3">
-                                <rect key="frame" x="164" y="318.5" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="0.0" y="143" width="375" height="48"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">ShowCountdownTimer
+</string>
+                                </state>
                                 <connections>
                                     <action selector="buttonAction:" destination="VCb-GG-d0u" eventType="touchUpInside" id="QdR-Is-fnp"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="BbR-hZ-xm3" firstAttribute="centerY" secondItem="oXn-J0-Qk5" secondAttribute="centerY" id="d9I-mZ-mDY"/>
+                            <constraint firstItem="L6E-gY-Ggz" firstAttribute="trailing" secondItem="BbR-hZ-xm3" secondAttribute="trailing" id="TXc-2Z-fTb"/>
+                            <constraint firstItem="BbR-hZ-xm3" firstAttribute="centerY" secondItem="oXn-J0-Qk5" secondAttribute="centerY" multiplier="0.5" id="d9I-mZ-mDY"/>
                             <constraint firstItem="BbR-hZ-xm3" firstAttribute="centerX" secondItem="oXn-J0-Qk5" secondAttribute="centerX" id="hbQ-OO-Vyc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="L6E-gY-Ggz"/>
